@@ -1,0 +1,60 @@
+body{
+    background-image: url(charlesdeluvio-Lks7vei-eAg-unsplash.jpg);
+    background-size: cover;
+}
+.form{
+    width: 800px;
+    height: 700px;
+    margin: 30px auto;
+}
+h1{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+
+}
+table {
+    font-size:30px;
+}
+
+td{
+ padding: 5px 30px 0px 0px;
+}
+.index{
+    width: 400px;
+    height: 50px;
+    border-radius:8px;
+    text-align: center;
+}
+.txtarea{
+    width: 800px;
+    height: 70px;
+    border-radius:20px;
+    text-align: center;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.sub{
+    width: 800px;
+    height: 50px;
+background-color: goldenrod;
+border-radius: 8px;
+font-size: 20px;
+color: white;
+}
+.c1{
+    color: white;
+
+}
+.fot{
+    height: 20vh;
+    background: linear-gradient(#c9d0f8,#c9d0f8);
+    display: flix;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
