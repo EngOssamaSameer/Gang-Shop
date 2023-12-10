@@ -1,0 +1,277 @@
+.main{
+    width: 100% ;
+    min-height: 100vh;
+    display: flex;
+    background-image:url(imges/a.jpg.jpg);
+      align-items: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      background-attachment: fixed;
+      
+}
+          /* for the header*/
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+   position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+.logo{
+    text-decoration: none;
+    color: goldenrod;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+.navigation a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 50px;
+
+
+}
+.navigation a:hover{
+    color:blue;
+}
+/*End of the header*/
+h2{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100px ;
+    font-weight:100px ;
+    color: white;
+    text-align:center;
+    border: 10px  solid;
+}
+h3{
+    font-size: 100px;
+    color:white;
+    font-weight: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+          /*titles*/
+h2.title{
+
+    width: 100% ;
+    min-height: 100vh;
+    display: flex;
+    background-image:url(imges/larm-rmah-R1Ku62Z7zqE-unsplash.jpg);
+      align-items: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      
+}
+h2.title2{
+
+    width: 100% ;
+    min-height: 100vh;
+    display: flex;
+    background-image:url(imges/back\ men.jpg);
+      align-items: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center center;
+}
+h2.title3{
+
+    width: 100% ;
+    min-height: 100vh;
+    display: flex;
+    background-image:url(imges/kids\ back.jpg);
+      align-items: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      
+}
+/*End of titles*/
+
+            /* women section */
+.shop-contact{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    text-align: center;
+}
+.section-title{
+    text-align: center;
+    color: goldenrod;
+    font-size: 1.4em;
+    border: 10px black solid;
+  }
+
+  .product-box:hover{
+      padding: 10px;
+      border: 1px solid var(--text-color);
+      transition: 0.4s ease;
+  }
+  .price{
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .product-box{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px black;
+    border-radius: 10px;
+    margin: 50px;
+    transition: 0.7 ease;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    
+    
+  }
+/* End of women section */
+
+             /* men section */
+.shop-contact-m{
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    text-align: center;
+}
+.section-title-m{
+    text-align: center;
+    color: goldenrod;
+    border: 10px black solid;
+    font-size:2em ;
+
+}
+.product-box-m{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px black;
+    border-radius: 10px;
+    margin: 50px;
+    transition: 0.7 ease;
+    text-align: center;
+    
+  }
+.product-box-m:hover{
+    padding: 10px;
+    border: 1px solid var(--text-color);
+    transition: 0.4s;
+}
+.price-m{
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* End of men section */
+
+             /* kids section */
+.shop-contact-k{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    text-align: center;
+}
+.section-title-k{
+    text-align: center;
+    color: goldenrod;
+    border: 10px black solid;
+    font-size:2em ;
+}
+.product-box-k{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px black;
+    border-radius: 10px;
+    margin: 50px;
+    transition: 0.7 ease;
+    text-align: center;
+    
+  }
+.product-box-k:hover{
+    padding: 10px;
+    border: 1px solid var(--text-color);
+    transition: 0.4s;
+}
+.price-k{
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* End of kids section */
+
+             /* buy button */
+.buy{
+    background-color: goldenrod;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400px;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding-right: 30px;
+    padding:0.5em 0.5em;
+    margin-top: 6px;
+  
+
+    
+}
+/*End of buy button */
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap ;
+}
+.fot{
+    height: 20vh;
+    background: linear-gradient(#c9d0f8,#c9d0f8);
+    display: flix;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 20px;
+    top: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+label::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 1px;
+    top: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    background:black ;
+    transition:0.4s ;
+
+}
+label.active::before{
+    left:24px;
+    background: black;
+}
+body.night{
+    background: black;
+    color: white;
+
+}
