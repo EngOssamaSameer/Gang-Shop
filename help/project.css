@@ -1,0 +1,320 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+header{
+    background-color: #dfb458;
+    width: 100%;
+    position:fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 200px;
+    
+}
+
+body{
+background-color: #c0c0c0;
+}
+ 
+.logo{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: serif;
+    padding-right: 30px;
+    justify-content: center;
+}
+
+.navigation a {
+   color: black;
+   text-decoration: none;
+   font-size: 1.1em;
+   font-weight: 500;
+   
+}
+
+
+
+h1{
+    
+    justify-content: center;
+    display: grid;
+    padding-top: 10%;
+    font-size: 220%;
+    letter-spacing: 1px;
+
+}
+
+
+
+    input[type="text"]{
+        justify-content: center;
+        align-items: center;
+        margin-left: 28%;
+        margin-top: 3%;
+        position: absolute;
+    width: 45%;
+    height: 15%;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1, 1,1 , 15%);
+
+     
+        
+    
+    
+    }
+    
+    
+    input[type="submit"]{
+        margin-left:44.9%;
+        margin-top: 13%;
+        width: 10%;
+       background-color:grey;
+       border-radius: 5px;
+       
+       
+      
+        }
+    
+        input::placeholder{
+            letter-spacing: 2px;
+            padding-left: 15px;
+        }
+      
+      
+        .cards{
+            flex-direction: row;
+        }
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        text-align: center;
+        text-size-adjust: 100%;
+        margin-top: 5%;
+    
+        
+    }
+
+
+
+    .card1{
+        background-color: white;
+        width:230px;
+        height: 150px;
+        box-shadow: 0 5px 25px rgba(1, 1,1 , 15%);
+        padding: 25px;
+        margin: 15px;
+        font-size:14.256px ;
+        font-weight: 600;
+        
+    }
+
+    .card1:hover{
+        transform : scale(1.1);
+         }
+
+    .card2{
+        background-color: white;
+        width: 230px;
+        height: 150px;
+        box-shadow: 0 5px 25px rgba(1, 1,1 , 15%);
+        padding: 25px;
+        margin: 15px;
+        font-size:14.256px ;
+        font-weight: 600;
+    }
+
+    .card2:hover{
+        transform : scale(1.1);
+         }
+
+    .card3{
+        background-color: white;
+        width:230px;
+        height: 150px;
+        box-shadow: 0 5px 25px rgba(1, 1,1 , 15%);
+        padding: 25px;
+        margin: 15px;
+        font-size:14.256px ;
+        font-weight: 600;
+    }
+
+    .card3:hover{
+        transform : scale(1.1);
+         }
+
+    .card4{
+        background-color: white;
+        width:230px;
+        height: 150px;
+        box-shadow: 0 5px 25px rgba(1, 1,1 , 15%);
+        padding: 25px;
+        margin: 15px;
+        font-size:14.256px ;
+        font-weight: 600;
+        
+    }
+    .card4:hover{
+        transform : scale(1.1);
+         }
+
+         .icon1 i {
+             color:#ffae00;
+             font-size: 4em;
+             padding-top: 2px;
+         }
+         .icon1 p{
+             padding-top: 20px;
+             color: black;
+             font-size: 1.3em;
+         }
+
+         .icon2 i {
+            color:#ffae00;
+            font-size: 4em;
+            padding-top: 2px;
+        }
+        .icon2 p{
+            padding-top: 20px;
+            color: black;
+            font-size: 1.3em;
+        }
+
+        .icon3 i {
+            color:#ffae00;
+            font-size: 4em;
+            padding-top: 2px;
+        }
+        .icon3 p{
+            padding-top: 20px;
+            color: black;
+            font-size: 1.3em;
+        }
+
+        .icon4 i {
+            color:#ffae00;
+            font-size: 4em;
+            padding-top: 2px;
+        }
+        .icon4 p{
+            padding-top: 20px;
+            color: black;
+            font-size: 1.3em;
+        }
+
+        label{
+            position: absolute;
+            width: 45px;
+            height: 22px;
+            right: 20px;
+            top: 20px;
+            border: 2px solid;
+            border-radius: 20px;
+   
+        }
+
+        label::before{
+            position: absolute;
+            content: "";
+            width: 20px;
+            height: 20px;
+            left: 1px;
+            top: 1px;
+            border-radius:50% ;
+            cursor: pointer;
+            background: black;
+            transition: 0.45s;
+        }
+
+        label.active:before{
+            left: 24px;
+            background-color:grey; ;
+           
+        }
+
+        body.night{
+            background-color:grey ;
+            color:black;
+        }
+
+
+        @media (max-width:1057px) {
+            header{
+                padding-top: 50px;  }
+            .logo {
+                padding-left: 200px;
+                font-size:  3em; 
+            }
+
+             h1{
+                
+                font-size: 4em;
+                padding-top: 30%;
+            }
+            
+            input[type="text"]{            
+                    margin-top: 10%;
+                height: 10%;
+            }
+
+            input[type="submit"]{
+                margin-top: 33%;
+             }
+
+            .content{
+                flex-direction: column;
+                align-items: center;
+                padding-top: 400px;
+            }
+
+            .card1{
+                width: 300px;
+                height: 200px;
+            }
+
+            .card2{
+                width: 300px;
+                height: 200px;
+            }
+
+            .card3{
+                width: 300px;
+                height: 200px;
+            }
+
+            .card4{
+                width: 300px;
+                height: 200px;
+            }
+        }
+
+
+        
+        .fot{
+            height: 20vh;
+            display: flex;
+            background: linear-gradient(#c9d0f8,#c9d0f8 );
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+            padding: 0 5rem;
+        }
+
+           @media (max-width:375px){
+               .content{
+             margin-top: 300px;
+            }
+           }

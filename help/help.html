@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gang shop</title>
+        
+        <link rel="stylesheet" href="project.css">
+        <script src="project.js"></script>
+        
+        <script src="https://kit.fontawesome.com/ee9c0ac283.js" crossorigin="anonymous"></script>
+    </head>
+        <body>
+            <header>
+                <a href="#" class="logo"> Help center</a>
+                <label id="dark-change"></label> 
+            </header>
+            <script>
+                
+var content = document.getElementsByTagName('body')[0];
+var darkMode = document.getElementById('dark-change');
+darkMode.addEventListener('click',function(){
+    darkMode.classList.toggle('active')
+    content.classList.toggle('night')
+})
+            </script>
+            <div>
+     <h1>How  can  we  help  you?</h1>
+            </div>
+            <div>
+     <input type="text" required placeholder="Describe your issue">
+     
+     <input onClick="test()"  type="submit">
+            </div>
+            
+            <section class="cards">
+                <div class="content">
+                <div class="card1">
+                    <div class="icon1">
+                        <i class="fa-solid fa-truck"></i>
+                    
+                        <p>place&track order</p>
+                    </div>
+                    </div>
+                    <div class="card2">
+                        <div class="icon2">
+                            <i class="fa-solid fa-xmark"></i>
+                            
+                            <p>Order cancellation</p>
+                        </div>
+                        </div>
+                        <div class="card3">
+                            <div class="icon3">
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                                <p>Returns&Refunds</p>
+                            </div>
+                            </div>
+                            <div class="card4">
+                                <div class="icon4">
+                                    <i class="fa-solid fa-cash-register"></i>
+                                    <p>Payment&Account</p>
+                                </div>
+                                </div>
+            
+            </div>
+            </section>
+    
+            <footer class="fot">
+                <br>
+                <div class="footer-section">
+                    <p>
+                        All rights are kept to Gang shop ©2022
+                    </p>
+                    <div class="icons">
+                        <a href="#"><i id="icon" class="fa-brands fa-linkedin-in"></i> </a>
+                        <a href="#"><i id="icon" class="fa-brands fa-facebook-f"></i> </a>
+                        <a href="#"><i id="icon" class="fa-brands fa-instagram"></i> </a>
+                        <a href="#"><i id="icon" class="fa-brands fa-youtube"></i> </a>
+                        <a href="#"><i id="icon" class="fa-brands fa-twitter"></i> </a>
+                        <a href="#"><i id="icon" class="fa-brands fa-google"></i> </a>
+                        <a href="#"><i id="icon" class="fa-brands fa-skype"></i> </a>
+          
+          
+          
+          
+          
+          
+                    </div>
+                </div>
+              </footer>
+
+    
+        </body>
+    
+</html>
