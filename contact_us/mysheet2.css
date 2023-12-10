@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+
+.contact-Us{
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://media.istockphoto.com/photos/need-help-contact-us-picture-id1257481057?k=20&m=1257481057&s=612x612&w=0&h=4SUJXkP08_Vhg8WFxGM5_wFWpEEKm3sB2NuDWRfMCbA=);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact-Us .contact {
+    max-width: 800px;
+    text-align: center;
+    
+}
+
+.contact-Us .contact span{
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+    }
+    
+.contact-Us .contact h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    }
+
+.contact-Us .contact p{
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    color: rgb(255, 255, 255);
+}
+.contact-info .icon{
+    color: black;
+    font-size: 1.5em;
+}
+.social-icon a{
+    color: black;
+    font-size: 1.8em;
+    margin: 10px;
+}
+
+.fot{
+    max-height: 20vh;
+    background: #c9d0f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.footer-section{
+    color: white;
+    font-weight: 600;
+}
+.icoon{
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+   padding-top:10px; 
+
+}

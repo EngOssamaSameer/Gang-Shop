@@ -1,0 +1,144 @@
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 12px;
+    top: 10px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+label:before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 1px;
+    top: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: black;
+    transition: 0.4s;
+}
+label.active:before{
+    left: 24px;
+    background: black;
+}
+body.night{
+    background: black;
+    color: white;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 70px;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    padding-left: 200px;
+    color: black;
+    background: #DFB15B;
+    font-weight: bold;
+    font-size: large;
+}
+td{
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: large;
+    padding-right: 50px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+ }
+td a{
+    color: #DFB15B;
+    font-size: 12px;
+    font-weight: 600;
+    font-size: medium;
+    
+}
+td img{
+  margin-right: 10px;
+}
+.y{
+margin-top: 30px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 5px solid #DFB15B;
+    width: 100%;
+    max-width: 500px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+input{
+    border-radius: 10px;
+    border-color: black;
+    border-width:2.5px;
+    font-weight: 700;
+    margin-left: 200px;
+ }
+.d{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+small{
+    font-style:italic;
+    font-weight: 700;
+    font-size: medium;
+}
+.b2{
+    font-weight:700;
+    font-size: 15px;
+    color: white;
+    background-color: #DFB15B;
+    border-radius:12px;
+    letter-spacing: 1px;
+    padding: 9px;
+    margin-top:70px;
+    cursor: pointer;
+}
+.a{
+   margin-left: 20%;
+}
+.fot{
+    height: 20vh;
+    background: linear-gradient(#c9d0f8,#c9d0f8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+    margin-top: 7px;
+}
+.m{
+    padding-right: 70px;
+}
+.l{
+    padding-left: 200px;
+}
+.k{
+    padding-left: 150px;
+}
+@media (max-width:1023px){
+    th{
+        padding-left: 10px;
+    }
+    td input{
+      margin-right: 100px;
+    }
+}
