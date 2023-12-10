@@ -1,0 +1,156 @@
+header{
+    background-color: #DFB15B;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 20px;
+    top: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+label:before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 1px;
+    top: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: black;
+    transition: 0.4s;
+}
+label.active:before{
+    left: 24px;
+    background: black;
+}
+body.night{
+    background: black;
+    color: white;
+}
+body{
+    background-image: url(WhatsApp\ Image\ 2022-04-29\ at\ 1.07.20\ AM.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: black;
+}
+h1{
+    text-shadow: 30px 40px 5px #DFB15B;
+    text-align: center;
+    font-size: 100px;
+}
+.x a {
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: 700;
+    display: inline-block;
+    padding:50px;
+    letter-spacing:2px;
+    color:#DFB15B ;
+}
+.x a:hover{
+color:white;
+}
+h2{
+    text-shadow: 5px 10px 2px #DFB15B;
+    text-align: center;
+    font-size: 70px;
+    border: 7px solid grey;
+ }
+.image1{
+    font-weight: bold;
+    font-size: 2em;
+}
+.image1x{
+    font-size: 2em;
+}
+span{
+    font-size:50px;
+}
+mark{
+  background-color:#DFB15B;
+ }
+ .card{
+     width: 21.25em;
+     box-shadow: 0 5px 25px #DFB15B;
+     border-radius:10px;
+     padding:25px;
+     margin: 15px;
+     transition: 0.7s ease;
+     text-align: center;
+     cursor: pointer;
+ }
+.card:hover{
+ transform: scale(1.1);
+}
+ .content{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+ .b1{
+     font-weight: bold;
+     font-size: 30px;
+    color: white;
+    background-color: #DFB15B;
+    border-radius:15px;
+    letter-spacing: 1px;
+    padding: 9px;
+    }
+    .fot{
+        height: 20vh;
+        background: linear-gradient(#c9d0f8,#c9d0f8);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 5rem;
+    }
+    @media (max-width:1023px){
+        header{
+            padding: 12px 10px;
+        }
+        .navigation a {
+            font-size: 2em;
+            font-weight: 700;
+            padding-right: 100px;
+            margin-left: 2px;
+        }
+        h1{
+            text-shadow: 20px 30px 3px #DFB15B;
+            font-size: 70px;
+        }
+    }
+
+
+    
+
+
+
