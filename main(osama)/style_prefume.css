@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    color: beige;
+}
+header{
+    padding: 10px 200px;
+    background-color: rgb(51, 42, 42);
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    align-items: center;
+}
+.logo{
+    color:goldenrod;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navigation a{
+    color: goldenrod;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color:rgb(128, 98, 23);
+    font-size: 1.3em;
+   
+}
+
+section{
+    padding: 10px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   
+}
+.main h2 {
+    
+    color: goldenrod;
+    font-size: 3em;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 50px;
+}
+.main h3{
+    color: beige;
+    font-weight:700 ;
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: beige;
+    background-color: goldenrod;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    display: inline-block;
+    padding: 15px 30px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    transition: 0.6s ease;
+}
+.main-btn:hover{
+    background-color: rgb(83, 63, 13);
+    transform:scale(1.1) ;
+}
+
+.title{
+    color: goldenrod;
+    font-weight: 800;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card{
+    background-color: black;
+   
+    width: 440px;
+    box-shadow: 0 5px 25px rgba(240,240,240, 15%) ;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.6s ease;
+    border-radius: 10px;
+}
+.card:hover{
+    transform:scale(1.1) ;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: goldenrod;
+    font-weight: 700;
+    font-size: 1.3em;
+
+}
+.links{
+    text-decoration: none;
+    color: beige;
+
+}
+
+.v{
+    display: inline-block;
+    position: relative;
+    padding-left: 180px;
+}
+
+
+    .product-card{
+        background-color: rgba(128, 111, 111, 0.26);
+   
+        width: 440px;
+        box-shadow: 0 5px 25px rgba(29, 27, 27, 0.15) ;
+        padding: 40px;
+        margin: 40px;
+        transition: 0.6s ease;
+        border-radius: 17px;
+        
+    }
+    .product-card:hover{
+        color: rgb(110, 84, 17);
+        transform:scale(1.1) ;
+    }
+    .product-title span{
+        color: gold; 
+    }
+    .product.content{
+        margin-top: 30px;
+    }
+    
+    .BUY{
+        background-color: goldenrod;
+        border-radius: 5px;
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px;
+        justify-content: space-between;
+        
+        
+    }
+
+    .cart{
+        background-color: goldenrod;
+        border-radius: 5px;
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px;
+        margin: 0px 84px;
+        justify-content: space-between;
+    }
+    .cart:hover{
+        color: rgb(110, 84, 17);
+        transform:scale(1.1) ;
+    }
+    .BUY:hover{
+        color: rgb(110, 84, 17);
+        transform:scale(1.1) ;
+    }
+   .slider{
+       text-align: center;
+       margin: 20px 0;
+   }
+   .slider h2{
+    color: goldenrod;
+    font-weight: 800;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+     
+   }
+.photo{
+    width: 350px;
+    height: 370px;
+}
+.fot{
+    width:1400px;
+    color: goldenrod;
+    background: rgb(15, 15, 14);
+   text-align: center;
+   font-size: 16px;
+   display: flex;
+   flex-direction: column;
+   height: 15vh;
+   margin: 0 auto;
+   padding: 0 5rem;
+ 
+}
+  .icons{
+    margin-top: 7px;
+    margin-left: 6px;
+    color: goldenrod;
+    text-decoration: none;
+  
+  }
+
+   @media (max-width:1109px){
+       .header {
+       padding: 10px 60px;
+       }
+       .logo{
+           font-size: 1em;
+       }
+       section {
+           padding: 80px;
+       }
+       .body{
+           font-size: 12px;   
+       }
+      section{
+           padding: 80px 20px;
+
+      }
+      .slider h2{
+          margin-left: 110px;
+      }
+      
+   @media (max-width:281px){
+       .product-card{
+           display: inline-block;
+           padding-left: 85px;
+       }
+       .video{
+           width: 200px;
+           height: 200px;
+
+       }
+       header{
+           padding: 7px 50px;
+
+       }
+       .slider h2{
+           font-size: 20px;
+           margin-left: 30px;
+       }
+      .photo {
+       width: 200px;
+       height: 200px;
+           
+       }
+    }

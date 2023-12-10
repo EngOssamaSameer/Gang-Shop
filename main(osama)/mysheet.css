@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: goldenrod;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+.head a span{
+    color: white;
+
+}
+.navigation a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color:white;
+    font-weight: bolder;
+    font-style: italic;
+    
+   
+}
+
+section{
+    padding: 100px 200px;
+   
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+    background-image: url(https://aws1.discourse-cdn.com/pocketgems/uploads/episodeinteractive/original/3X/9/1/91cf2d96b6f71c752fd3d372436c0ed1a56c1bb8.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.main h2 span{
+  font-size:  1em ;
+    margin-top: 10px;
+    color: white;
+    
+}
+
+.main h3{
+    font-size: 1.8 em;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.social-icons a{
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    padding-right:  30px ;
+    margin: 5px;
+
+}
+.Products .content{
+    margin-top: 0px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.2em;
+    margin-bottom: 30px;
+ 
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Products{
+    background-color: rgb(0, 0, 0);
+   
+}
+
+.product-card{
+
+    background-color:rgb(255, 255, 255);
+    border: 1px solid  white;
+    min-height: 14em;
+    width: 19em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 30px;
+    transition: 0.7s ease;
+}
+ 
+.product-card:hover{
+transform: scale(1.1);
+
+    
+
+}
+
+.product-image img{
+    width: 100%;
+    
+    
+
+    
+}
+.product-card:hover .product-image{
+    opacity: 0.9;
+    
+}
+.product-info{
+    padding: 1em;
+    
+}
+.product-category{
+    font-size: 0.8em;
+    color: #000;
+    
+    
+}
+
+ .project-title{
+   color:rgb(0, 0, 0) ;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10PX;
+
+   
+}
+.project-title a:hover{
+   font-family: fantasy; 
+   color: #000;
+}
+
+.project-title .none{
+    text-decoration: none;
+    color: gray;
+
+}
+
+.fot{
+    max-height: 20vh;
+    background:#c9d0f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.footer-section{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.icoon{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+   padding-top:10px; 
+  
+    
+
+}
+
+
+
+
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 50px 20px;
+
+}
+    
+.main h2 span{
+    font-size:  1em ;
+    }
+.main h3{
+    font-size: 1.6em;
+    }
+.content{
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .fot{
+        max-height: 5vh;
+       
+        margin: 5px auto;
+        padding: 0 4rem;
+    }
+    
+    }   
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    .main h2 span{
+        font-size:  0.8em ;
+    }
+    .main h3{
+        font-size: 1.4em;
+    }
+}
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+    }
+}

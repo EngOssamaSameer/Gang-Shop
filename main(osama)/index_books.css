@@ -1,0 +1,674 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #dfb158;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: white;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX2CR0r6g1hfMbI_u7z48b4d_CheM5l07LlA&usqp=CAU) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.main h1{
+    font-size: 1.8em;
+    font-weight: 500;
+    font: serif;
+
+
+}
+
+.main h3{
+    font-size: 1.4em;
+    padding-bottom: 100px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #dfb158;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    border: black 10px solid;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.buy{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    padding: 0.5em 1.18em;
+    margin-top: 10px;
+    
+    
+    
+}
+
+.buy:hover{
+    transform: scale(1.1); 
+}
+
+
+
+.cards{
+    background: color #989898;
+}
+
+.card{
+    width: 10em;
+    height: 21em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 100px;
+    margin: 50px;
+    background-image: url(https://4.imimg.com/data4/XI/ID/GLADMIN-29490666/4-500x500.jpg );
+    background-size: 220px 330px;
+    transition: 0.7s ease;
+    text-align: center;
+    
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+    
+
+.card p {
+padding-top: 255px;
+font-size: 1.4em;
+font-weight: 600;
+letter-spacing: 1px;
+
+
+}
+
+
+.card1{
+    width: 10em;
+    height: 21em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 100px;
+    margin: 50px;
+    background-image: url(  https://images-na.ssl-images-amazon.com/images/I/81a4kCNuH+L.jpg);
+    background-size: 220px 330px;
+    transition: 0.7s ease;
+    
+}
+.card1:hover{
+    transform : scale(1.1);
+     }
+
+.card1 p {
+    padding-top: 255px;
+    font-size: 1.4em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    }
+
+    .card2{
+        width: 10em;
+        height: 21em;
+        background-size: contain;
+        background-repeat: no-repeat;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+        border-radius: 10px;
+        padding: 100px;
+        margin: 50px;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsb9wrdS0e7blec2VGuMSSjjBZBIsjy1dW-w&usqp=CAU );
+       background-size: 220px 330px;
+        transition: 0.7s ease;
+    }
+    
+    .card2:hover{
+        transform: scale(1.1);
+    }
+
+    .card2 p {
+        padding-top: 255px;
+        font-size: 1.4em;
+        font-weight: 600;
+        letter-spacing: 1px;
+        }
+
+
+
+
+
+
+
+
+        .title2{
+            display: flex;
+            justify-content: center;
+            color: #dfb158;
+            font-size: 2.2em;
+            font-weight: 800;
+            margin-bottom: 30px;
+            border: black 10px solid;
+        }
+
+        .content2{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+
+        .x{
+            width: 10em;
+            height: 21em;
+            background-size: contain;
+            background-repeat: no-repeat;
+            box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+            border-radius: 10px;
+            padding: 100px;
+            margin: 50px;
+            background-image: url(https://shereads.com/wp-content/uploads/2019/05/field-1-800x1205.jpg );
+            background-size: 220px 330px;
+            transition: 0.7s ease;
+        }
+        
+        .x:hover{
+            transform: scale(1.1);
+        }
+        
+        
+        .x p {
+        padding-top: 255px;
+        letter-spacing: 1px;
+        font-size: 1.4em;
+        font-weight: 600;
+        }
+        
+        .y{
+            width: 10em;
+            height: 21em;
+            background-size: contain;
+            background-repeat: no-repeat;
+            box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+            border-radius: 10px;
+            padding: 100px;
+            margin: 50px;
+            background-image: url( https://prodimage.images-bn.com/pimages/9781501173219_p0_v5_s192x300.jpg );
+            background-size: 220px 330px;
+            transition: 0.7s ease;
+            
+        }
+        .y:hover{
+            transform : scale(1.1);
+             }
+        
+        .y p {
+            padding-top: 255px;
+            letter-spacing: 1px;
+            font-size: 1.4em;
+            font-weight: 600;
+            }
+
+            .z{
+                width: 10em;
+                height: 21em;
+                background-size: contain;
+                background-repeat: no-repeat;
+                box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+                border-radius: 10px;
+                padding: 100px;
+                margin: 50px;
+                background-image: url(https://orion-uploads.openroadmedia.com/md_6968edc7c02c-the-night-watch.jpeg );
+               background-size: 220px 330px;
+                transition: 0.7s ease;
+            }
+            
+            .z:hover{
+                transform: scale(1.1);
+            }
+        
+            .z p {
+                padding-top: 255px;
+                letter-spacing: 1px;
+                font-size: 1.4em;
+                font-weight: 600;
+                }
+
+
+
+
+
+
+
+
+
+                .title3{
+                    display: flex;
+                    justify-content: center;
+                    color: #dfb158;
+                    font-size: 2.2em;
+                    font-weight: 800;
+                    margin-bottom: 30px;
+                    border: black 10px solid;
+                }
+                
+                .content3{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                }
+                
+                .a{
+                    width: 10em;
+                    height: 21em;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+                    border-radius: 10px;
+                    padding: 100px;
+                    margin: 50px;
+                    background-image: url(https://static01.nyt.com/images/2016/11/13/books/review/1113-BKS-DOLL1/1113-BKS-DOLL1-articleInline-v2.jpg?quality=75&auto=webp&disable=upscale);
+                    background-size: 220px 330px;
+                    transition: 0.7s ease;
+                }
+                
+                .a:hover{
+                    transform: scale(1.1);
+                }
+                
+                
+                .a p {
+                padding-top: 255px;
+                letter-spacing: 1px;
+                font-size: 1.4em;
+                font-weight: 600;
+                }
+                
+                .b{
+                    width: 10em;
+                    height: 21em;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+                    border-radius: 10px;
+                    padding: 100px;
+                    margin: 50px;
+                    background-image: url( https://m.media-amazon.com/images/I/61TpdE5gXaL._AC_UL320_.jpg );
+                    background-size: 220px 330px;
+                    transition: 0.7s ease;
+                    
+                }
+                .b:hover{
+                    transform : scale(1.1);
+                     }
+                
+                .b p {
+                    padding-top: 255px;
+                    letter-spacing: 1px;
+                    font-size: 1.4em;
+                    font-weight: 600;
+                    }
+                
+                    .c{
+                        width: 10em;
+                        height: 21em;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+                        border-radius: 10px;
+                        padding: 100px;
+                        margin: 50px;
+                        background-image: url(https://orion-uploads.openroadmedia.com/sm_eed956dcf622-girl-on-pl.jpg );
+                        background-size: 220px 330px;
+                        transition: 0.7s ease;
+                    }
+                    
+                    .c:hover{
+                        transform: scale(1.1);
+                    }
+                
+                    .c p {
+                        padding-top: 255px;
+                        letter-spacing: 1px;
+                        font-size: 1.4em;
+                        font-weight: 600;
+                        }
+
+
+                        .title4{
+                            display: flex;
+                            justify-content: center;
+                            color: #dfb158;
+                            font-size: 2.2em;
+                            font-weight: 800;
+                            margin-bottom: 30px;
+                            border: black 10px solid;
+                        }
+                        
+                        .content4{
+                            display: flex;
+                            justify-content: center;
+                            flex-wrap: wrap;
+                            flex-direction: row;
+                        }
+                        
+                        .h{
+                            width: 10em;
+                            height: 21em;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+                            border-radius: 10px;
+                            padding: 100px;
+                            margin: 50px;
+                            background-image: url( https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638480579l/7487564._SY475_.jpg);
+                            background-size: 220px 330px;
+                            transition: 0.7s ease;
+                        }
+                        
+                        .h:hover{
+                            transform: scale(1.1);
+                        }
+                        
+                        
+                        .h p {
+                        padding-top: 255px;
+                        letter-spacing: 1px;
+                        font-size: 1.4em;
+                        font-weight: 600;
+                        }
+
+                        .n{
+                            width: 10em;
+                            height: 21em;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+                            border-radius: 10px;
+                            padding: 100px;
+                            margin: 50px;
+                            background-image: url(https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638479995l/2548866._SY475_.jpg );
+                            background-size: 220px 330px;
+                            transition: 0.7s ease;
+                        }
+                        
+                        .n:hover{
+                            transform: scale(1.1);
+                        }
+                        
+                        
+                        .n p {
+                        padding-top: 255px;
+                        letter-spacing: 1px;
+                        font-size: 1.4em;
+                        font-weight: 600;
+                        }
+                        
+                        .m{
+                            width: 10em;
+                            height: 21em;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+                            border-radius: 10px;
+                            padding: 100px;
+                            margin: 50px;
+                            background-image: url( https://images.thestorygraph.com/s9m2rwo5x41bjja5rg251lv0tyt3 );
+                            background-size: 220px 330px;
+                            transition: 0.7s ease;
+                        }
+                        
+                        .m:hover{
+                            transform: scale(1.1);
+                        }
+                        
+                        
+                        .m p {
+                        padding-top: 255px;
+                        letter-spacing: 1px;
+                        font-size: 1.4em;
+                        font-weight: 600;
+                        }
+                        
+                       
+                       
+                        .title5{
+                            display: flex;
+                            justify-content: center;
+                            color: #dfb158;
+                            font-size: 2.2em;
+                            font-weight: 800;
+                            margin-bottom: 30px;
+                            border: black 10px solid;
+                        }
+                        
+                        .content5{
+                            display: flex;
+                            justify-content: center;
+                            flex-wrap: wrap;
+                            flex-direction: row;
+                        }
+                        
+                        .q{
+                            width: 10em;
+                            height: 21em;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+                            border-radius: 10px;
+                            padding: 100px;
+                            margin: 50px;
+                            background-image: url( https://media.npr.org/assets/bakertaylor/covers/t/the-lord-of-the-rings/9780618640157_custom-bd5c36cb700fafac72208e5f622a6d1a9ca85489-s300-c85.jpg );
+                            background-size: 220px 330px;
+                            transition: 0.7s ease;
+                        }
+                        
+                        .q:hover{
+                            transform: scale(1.1);
+                        }
+                        
+                        
+                        .q p {
+                        padding-top: 255px;
+                        letter-spacing: 1px;
+                        font-size: 1.4em;
+                        font-weight: 600;
+                         }
+
+
+                         .w{
+                            width: 10em;
+                            height: 21em;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+                            border-radius: 10px;
+                            padding: 100px;
+                            margin: 50px;
+                            background-image: url(https://ik.imagekit.io/panmac/tr:q-75,di-placeholder_portrait_aMjPtD9YZ.jpg,w-350,pr-true,bl/edition/9781509865888.jpg );
+                            background-size: 220px 330px;
+                            transition: 0.7s ease;
+                        }
+                        
+                        .w:hover{
+                            transform: scale(1.1);
+                        }
+                        
+                        
+                        .w p {
+                        padding-top: 255px;
+                        letter-spacing: 1px;
+                        font-size: 1.4em;
+                        font-weight: 600;
+                         }
+
+
+
+                         .e{
+                            width: 10em;
+                            height: 21em;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+                            border-radius: 10px;
+                            padding: 100px;
+                            margin: 50px;
+                            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa9IoZNxJCRJRqak16nSpUjAktoBwFn4P2EvzD3Ixfk7USrTWKgoHNyDnocYzFQzLJaNg&usqp=CAU );
+                            background-size: 220px 330px;
+                            transition: 0.7s ease;
+                        }
+                        
+                        .e:hover{
+                            transform: scale(1.1);
+                        }
+                        
+                        
+                        .e p {
+                        padding-top: 255px;
+                        letter-spacing: 1px;
+                        font-size: 1.4em;
+                        font-weight: 600;
+                         }
+                        
+
+
+                         .fot{
+                             height: 20vh;
+                             background: linear-gradient(#c9d0f8, #c9d0f8);
+                             display: flex;
+                             flex-direction: column;
+                             align-items: center;
+                             text-align: center;
+                             margin: 0 auto;
+                             padding: 0 5rem;
+                         }
+
+                         
+
+
+                         label{
+                             position: absolute;
+                             width: 45px;
+                             height: 22px;
+                             right: 20px;
+                             top: 20px;
+                             border: 2px solid;
+                             border-radius: 20px;
+                    
+                         }
+
+                         label::before{
+                             position: absolute;
+                             content: "";
+                             width: 20px;
+                             height: 20px;
+                             left: 1px;
+                             top: 1px;
+                             border-radius:50% ;
+                             cursor: pointer;
+                             background: black;
+                             transition: 0.45s;
+                         }
+
+                         label.active:before{
+                             left: 24px;
+                             background-color:grey; ;
+                            
+                         }
+
+                         body.night{
+                             background-color:grey ;
+                             color:black;
+                         }
+
+                         @media(max-width:1023px){
+                         header{
+                             padding: 12px 20px;
+                         }
+                         
+                         
+                         .navigation a{
+                             padding-right: 25px;
+                             
+                         }
+                         }
+
+
+
+
+
+
+
+
+
+            
+
+
+            
+
+            
+
+
+            
+
+
+            
