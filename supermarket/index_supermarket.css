@@ -1,0 +1,366 @@
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 20px;
+    top: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+label:before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 1px;
+    top: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: black;
+    transition: 0.45s ;
+}
+label.active:before{
+left: 24px;
+background-color:black;
+}
+
+body.night{
+    background-color:black;
+color:black;
+
+}
+@media (max-width:1023px){
+    .a81{
+        width: 100%;
+    padding-right: 30px;
+    padding-left: 32.5px;
+    }
+    .header{
+        padding: 12px 10px;
+    }
+    .navigation a{
+        font-size: 2em;
+        font-weight: 700;
+        padding-right: 100px;
+        margin-left: 2px;
+    }
+    .title{
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 100px;
+    }
+    .fot{
+        width: 1500px;
+    }
+    .main{
+        width: 3000px;
+        padding-left: 130px;
+        padding-right: 200px;
+    }
+
+}
+
+.logo{
+    text-decoration: none;
+    color:#dfb15d ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navigation a{
+    color: #dfb15d;
+    text-decoration: none;
+    font-size: 1em;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.navigation a:hover{
+    color: beige;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(image/cover2.png.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    color:white ;
+    font-size: 90px;
+    font-weight: 1200;
+    padding-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main h3{
+    color:white;
+    font-size: 70px;
+    font-weight: 1200;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.slider{
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+    height: 500px;
+    border: white 5px solid;
+     
+}
+.slider ul {
+    padding: 0%;
+    list-style: none;
+    width: 4200px;
+    position: relative;
+    animation: sliding 25s ease-in-out infinite;
+}
+.slider ul li {
+    float: left;
+    position: relative;
+}
+.slider h5 {
+    margin: 0;
+    background:#dfb15d;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    font-size: 25px;
+    margin: 20px;
+}
+.slider ul:hover
+{
+animation-play-state: paused;
+
+
+}
+
+
+
+@keyframes sliding
+{
+    0% {left: 0}
+    12%  {left: -700px;}
+    24% {left: -1400px;}
+    36% {left: -2100px;}
+    48% {left: -2800px;}
+    60% {left: -3500px;}
+    72%{ left:-4200px ;}
+    84%{left: 4900px;}
+}
+.qq
+{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+   text-shadow:  #f5cf8a 3px 5px 1px;
+}
+.alaal{
+    border: #333 initial 5px;
+    margin-left: 60px;
+    border: rgb(88, 78, 78) solid 5px;
+    margin-right: 60px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px
+}
+.project-card{
+    background-color: white;
+    border: 2px solid black;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7 ease;
+    box-shadow: 0 5px 25px #dfb15d;
+
+
+
+}
+.a58{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 40px;
+}
+.fot{
+    height: 20vh;
+    background:linear-gradient(rgb(170, 184, 185),rgb(170, 184, 185)) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.project-card :hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-image{
+    opacity: 0.7;
+}
+.project-image img{
+    width: 100%;
+}
+.project-info{
+    padding: 15px;
+}
+.project-category{
+    font-size: 20px;
+    color: black;
+}
+.projecy-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    color:black;
+    font-size: 18px;
+}
+.add-to-cart{
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+
+.add-to-cart:hover{
+    color: #601cfc;
+
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color:#dfb15d ;
+    font-size: 90px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow:rgb(247, 192, 73) 5px 8px 40px;
+
+}
+
+
+
+
+.Home.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.Home.projecy-card{
+
+background-color: #333;
+    border: 2px solid whitesmoke;
+    min-height: 14em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7 ease;
+    width: 300px;
+    height: 700;
+    max-height: 400px;
+
+ }
+.Housewares.Home.projecy-card{
+
+    border: 2px solid whitesmoke;
+    min-height: 14em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7 ease;
+    width: 600px;
+    height: 700;
+    max-height: 400px;
+    height: 400px;
+
+}
+
+.a81{
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 32.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
